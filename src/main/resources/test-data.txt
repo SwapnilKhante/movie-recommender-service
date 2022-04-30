@@ -1,0 +1,11 @@
+	
+curl http://localhost:8080/movie-project/movies -H "Content-Type: application/json" -d "{ \"title\": \"The Godfather\", \"alsoViewedTitle\": \"Schindler's List\", \"count\":23 }"
+curl http://localhost:8080/movie-project/movies -H "Content-Type: application/json" -d "{ \"title\": \"The Godfather\", \"alsoViewedTitle\": \" Goodfellas\", \"count\":45 }"
+curl http://localhost:8080/movie-project/movies -H "Content-Type: application/json" -d "{ \"title\": \"The Godfather\", \"alsoViewedTitle\": \"The Departed\", \"count\":17 }"
+curl http://localhost:8080/movie-project/movies -H "Content-Type: application/json" -d "{ \"title\": \"Philadelphia\", \"alsoViewedTitle\": \" The Intouchables\", \"count\":10 }"
+curl http://localhost:8080/movie-project/movies -H "Content-Type: application/json" -d "{ \"title\": \"Philadelphia\", \"alsoViewedTitle\": \"Forrest Gump\", \"count\":70 }"
+curl http://localhost:8080/movie-project/movies -H "Content-Type: application/json" -d "{ \"title\": \"American Gangster\", \"alsoViewedTitle\": \"Gladiator\", \"count\":3 }"
+curl http://localhost:8080/movie-project/movies -H "Content-Type: application/json" -d "{ \"title\": \"American Gangster\", \"alsoViewedTitle\": \"The Trainning Day\", \"count\":34 }"
+curl http://localhost:8080/movie-project/movies -H "Content-Type: application/json" -d "{ \"title\": \"Forrest Gump\", \"alsoViewedTitle\": \"Philadelphia\", \"count\":43 }"
+curl http://localhost:8080/movie-project/movies -H "Content-Type: application/json" -d "{ \"title\": \"Forrest Gump\", \"alsoViewedTitle\": \"Cast Away\", \"count\":87 }"
+curl http://localhost:8080/movie-project/movies -H "Content-Type: application/json" -d "{ \"title\": \"Forrest Gump\", \"alsoViewedTitle\": \"Sully\", \"count\":65 }"
